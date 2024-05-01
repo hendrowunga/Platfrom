@@ -9,12 +9,13 @@ if (isset($_COOKIE['cookie1'])) {
     echo "<tr><td>Nama</td><td>" . $cookie[1] . "</td></tr>";
     echo "<tr><td>Status</td><td>" . $cookie[2] . "</td></tr>";
     echo "<tr><td>Minat</td><td>";
-    foreach ($kuki[3] as $c) {
+    foreach ($cookie[3] as $c) {
         echo '<li>' . $c;
     }
     echo "</td></tr>";
     echo "</table>";
 } else {
+
 ?>
     <html lang="en">
 
