@@ -12,6 +12,7 @@
         echo ("<h1> Maaf,Cookie tidak ditemukan</h1>");
     }
     ?>
+
 </body>
 
 
