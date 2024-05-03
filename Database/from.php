@@ -18,7 +18,7 @@
         <br>
 
         <label for="merek">Merk</label>
-        <input type="text" name="merk" />
+        <input type="text" name="merek" />
         <br>
 
         <label for="tipe">Tipe</label>
