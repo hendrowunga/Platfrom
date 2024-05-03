@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gudang</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <a href="tampil.php">Lihat Semua</a>
         <br>
 
-        <label for="merk">Merk</label>
+        <label for="merek">Merk</label>
         <input type="text" name="merk" />
         <br>
 
@@ -55,6 +56,7 @@
         <input type="submit" value="Update" name="update_btn">
         <input type="submit" value="Hapus" name="hapus_btn">
     </form>
+    <script src="javascripts.js"></script>
 </body>
 
 </html>
