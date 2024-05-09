@@ -4,3 +4,4 @@ function limit(element) {
     element.valur = element.value.substr(0, max_chars);
   }
 }
+//Function yang digunakan unutk melimit karakter yang diinputkan ke dalam text field "ID Produk"

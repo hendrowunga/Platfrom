@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <h1>Input Stok Gudang Gadget</h1>
     <form action="control.php" method="post">
         <label for="produkid">Produk ID</label>
@@ -56,6 +57,7 @@
         <input type="submit" value="Update" name="update_btn">
         <input type="submit" value="Hapus" name="hapus_btn">
     </form>
+
     <script src="javascripts.js"></script>
 </body>
 
