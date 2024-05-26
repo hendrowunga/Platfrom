@@ -13,7 +13,7 @@ body {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start; /* Menggeser kontainer ke kiri */
   align-items: center;
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 /* Box to contain form controls */
 .control-group {
-  display: inline-block;
+  display: block; /* Ubah display menjadi block */
   vertical-align: top;
   background: #ffffff;
   text-align: left;
@@ -81,7 +81,7 @@ h1 {
   background: #0e647d;
 }
 
-/* Hide default browser input for disabled state */
+/* Hide default browser input for disabled state *
 .control input:disabled ~ .control__indicator {
   background: #e6e6e6;
   opacity: 0.6;

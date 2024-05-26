@@ -1,0 +1,46 @@
+/* style.css */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  font-size: 10pt;
+}
+
+th,
+td {
+  padding: 3px;
+  text-align: left;
+  height: 25px;
+}
+
+th {
+  background-color: steelblue;
+  color: white;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+h2 {
+  font-weight: 600;
+  color: steelblue;
+}
+.btn-delete {
+  border: 1px solid #db5d59;
+  background: #db5d59 url("images/hapus.png") no-repeat 5px 4px;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
