@@ -6,9 +6,8 @@ use CodeIgniter\Model;
 
 class MahasiswaModel extends Model
 {
-    protected $table = 'mahasiswa';
-    protected $allowedFields = ['nim', 'nama'];
-
+    protected $table = "mahasiswa";
+    protected $allowedFields = ['NIM', 'NAMA'];
     public function simpanMahasiswa($data)
     {
         $this->save($data);

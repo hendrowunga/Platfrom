@@ -17,6 +17,6 @@ class Mahasiswa_Controller extends BaseController
         $data = $this->request->getPost(['nim', 'nama']);
         $model = model(MahasiswaModel::class);
         $model->simpanMahasiswa($data);
-        return view('mahasiswa_input', ['message' => 'Data berhasil disimpan']);
+        return view('mahasiswa_input');
     }
 }
